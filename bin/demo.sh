@@ -4,7 +4,7 @@ set -e
 set -u
 set -x
 
-echo "Start demo script"
+echo "Start demo script "
 uname -s
 
 if [ "$(uname -s)" != "Linux" ]; then
