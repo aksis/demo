@@ -15,12 +15,12 @@ fi
 if [ -f /etc/os-release ]; then
 	. /etc/os-release
 else
-	echo "OS info not found"
+	echo "Linux info not found"
 	exit 1
 fi
 
-if [ "$ID" != "raspbian" ]; then
-	echo "Distro not supported"
+if [ "$ID" != "centos" ]; then
+	echo "Distro $ID not supported"
 	exit 1
 fi
 
