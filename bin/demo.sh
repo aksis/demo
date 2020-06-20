@@ -23,5 +23,3 @@ if [ "$ID" != "centos" ]; then
 	echo "Distro $ID not supported"
 	exit 1
 fi
-
-echo 
