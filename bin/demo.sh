@@ -2,10 +2,9 @@
 
 set -e
 set -u
-set -x
+# set -x
 
 echo "Start demo script "
-uname -s
 
 if [ "$(uname -s)" != "Linux" ]; then
 	echo "OS not supported"
